@@ -4,7 +4,7 @@ maintainer_email 'faripavano@gmail.com'
 license 'all_rights'
 description 'Installs/Configures ruby_server'
 long_description 'Installs/Configures ruby_server'
-version '0.1.0'
+version '0.2.0'
 
 # If you upload to Supermarket you should set this so your cookbook
 # gets a `View Issues` link
@@ -16,3 +16,5 @@ version '0.1.0'
 
 
 depends 'apt'     , '~> 5.0.0'
+depends 'firewall', '~> 2.5.3'
+depends 'git'     , '~> 5.0.1'
