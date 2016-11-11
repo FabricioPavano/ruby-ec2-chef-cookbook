@@ -2,8 +2,9 @@ name 'ruby_server'
 maintainer 'Fabricio Pavano'
 maintainer_email 'faripavano@gmail.com'
 license 'all_rights'
-description 'Installs/Configures ruby_server'
-long_description 'Installs/Configures ruby_server'
+description 'Installs/Configures a server for Ruby deploys'
+long_description 'Installs apt-get, git, apache, passenger and a
+ firewall. Leaving everything ready for a capistrano deploy'
 version '0.3.0'
 
 # If you upload to Supermarket you should set this so your cookbook
