@@ -6,6 +6,7 @@ Berksfile.lock
 \#*#
 .*.sw[a-z]
 *.un~
+files/default/id_rsa
 
 # Bundler
 Gemfile.lock
