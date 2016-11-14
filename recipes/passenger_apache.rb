@@ -24,7 +24,6 @@ execute 'Perform andother update' do
 end
 
 apt_package 'apache2'
-apt_package 'apache2-threaded-dev'
 apt_package 'libapache2-mod-passenger'
 
 execute 'Enable module passenger' do

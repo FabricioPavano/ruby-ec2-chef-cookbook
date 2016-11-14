@@ -5,7 +5,7 @@ license 'all_rights'
 description 'Installs/Configures a server for Ruby deploys'
 long_description 'Installs apt-get, git, apache, passenger and a
  firewall. Leaving everything ready for a capistrano deploy'
-version '1.0.0'
+version '1.0.1'
 
 # If you upload to Supermarket you should set this so your cookbook
 # gets a `View Issues` link
